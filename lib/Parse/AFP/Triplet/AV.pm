@@ -5,11 +5,12 @@ package Parse::AFP::Triplet::AV;
 use base 'Parse::AFP::Triplet';
 
 use constant SUBFORMAT => (
-    Ignore => "x2",
+    _ => 'a2',
     Data => 'a*',    # not yet parsed!
 );
 
 use constant ENCODED_FIELDS => 'Data';
 use constant ENCODING => 'cp500';
+
 
 1;
