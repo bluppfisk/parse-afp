@@ -9,6 +9,8 @@ use constant SUBFORMAT => (
     Format	=> 'H2',
     Data	=> 'a*',
 );
+
+use constant ENCODED_FIELDS => 'Data';
 use constant ENCODING => 'cp500';
 
 1;

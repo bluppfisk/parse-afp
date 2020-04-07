@@ -8,4 +8,7 @@ use constant SUBFORMAT => (
     Data => 'a*',    # not yet parsed!
 );
 
+use constant ENCODED_FIELDS => 'Data';
+use constant ENCODING => 'cp500';
+
 1;
