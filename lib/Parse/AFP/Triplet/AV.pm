@@ -5,6 +5,7 @@ package Parse::AFP::Triplet::AV;
 use base 'Parse::AFP::Triplet';
 
 use constant SUBFORMAT => (
+    Ignore => "x2",
     Data => 'a*',    # not yet parsed!
 );
 
